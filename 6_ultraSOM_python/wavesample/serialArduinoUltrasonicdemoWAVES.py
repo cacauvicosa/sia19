@@ -1,8 +1,4 @@
 import pyglet
-pyglet.options['audio'] = ('openal', 'silent')
-# music = pyglet.resource.media('Bamboo.wav')
-# music.play()
-# pyglet.app.run()
 import serial
 
 
@@ -29,4 +25,3 @@ while True:
 	music.play()
         
 
-# ser.write('5')

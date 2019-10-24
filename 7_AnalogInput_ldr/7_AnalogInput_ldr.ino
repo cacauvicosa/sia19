@@ -2,7 +2,7 @@
 
 int sensorPin0 = A0;  
 int sensorPin1 = A1;  
-int sensorValue = 1000;  // variable to store the value coming from the sensor
+int sensorValue = 1000;
 
 void setup() {
   Serial.begin(9600);
